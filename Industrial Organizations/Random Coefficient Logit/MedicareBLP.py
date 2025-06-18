@@ -45,7 +45,6 @@ import pandas as pd
 import numpy as np  
 import os
 
-dir = "example/xxxx" #CHANGE DIRECTORY HERE
 class data():        
     def __init__(self, dir, exp_1 = False, exp_2 = False, exp_3 = False):
         loc1= os.path.join(dir, "data.csv")
